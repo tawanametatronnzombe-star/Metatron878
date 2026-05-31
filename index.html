@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,16 +65,129 @@
     </script>
     <!-- JSON-LD Structured Data END -->
 
-    <link rel="stylesheet" href="css/style1.css">
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="stylesheet" href="css/style3.css">
-    <link rel="stylesheet" href="css/style4.css">
-    <link rel="stylesheet" href="css/style5.css">
-    <link rel="stylesheet" href="css/style6.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 
     <style>
-        /* your full CSS block goes here, same as your previous styles */
+      /* ===== FULL CSS ===== */
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      :root {
+        --dark-bg: #0a0e27;
+        --card-bg: #111a3a;
+        --accent-primary: #00a8ff;
+        --accent-secondary: #3db8ff;
+        --accent-light: #6fd4ff;
+        --text-primary: #ffffff;
+        --text-secondary: #e0e6ff;
+        --text-muted: #99a5d0;
+        --border-subtle: #1e2e5e;
+      }
+
+      body { 
+        margin: 0; 
+        font-family: 'Montserrat', sans-serif; 
+        background: var(--dark-bg); 
+        color: var(--text-primary);
+        overflow-x: hidden;
+      }
+
+      header {
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      header h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        color: var(--accent-primary);
+      }
+
+      header p {
+        font-size: 1.2em;
+        color: var(--text-secondary);
+      }
+
+      section { 
+        padding: 60px 20px; 
+        text-align: center; 
+      }
+
+      section h2 { 
+        font-size: 2em; 
+        margin-bottom: 20px; 
+        color: var(--accent-primary);
+      }
+
+      section ul { 
+        list-style: none; 
+        padding: 0; 
+      }
+
+      section ul li { 
+        margin-bottom: 12px; 
+        font-size: 1.1em;
+      }
+
+      section ul li a { 
+        color: var(--accent-secondary); 
+        text-decoration: none; 
+        transition: color 0.3s; 
+      }
+
+      section ul li a:hover { 
+        color: var(--accent-light); 
+      }
+
+      footer { 
+        text-align: center; 
+        padding: 40px 20px; 
+        background: var(--card-bg); 
+        border-top: 2px solid var(--accent-primary);
+      }
+
+      footer p { 
+        color: var(--text-muted); 
+      }
     </style>
 </head>
+<body>
+    <header>
+        <h1>Metatron878</h1>
+        <p>Solo music producer, beat maker, entrepreneur, and founder of Gosie Kartel</p>
+    </header>
+
+    <section id="tracks">
+        <h2>Tracks</h2>
+        <ul>
+            <li>Different Vibe</li>
+            <li>Rise Above</li>
+            <li>More Tracks Coming Soon...</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Hip-Hop / Trap Production</li>
+            <li>Beat Making</li>
+            <li>Sound Design</li>
+            <li>Branding & Marketing</li>
+            <li>Digital Content Creation</li>
+        </ul>
+    </section>
+
+    <section id="socials">
+        <h2>Follow Me</h2>
+        <ul>
+            <li><a href="https://www.tiktok.com/@metatron8788" target="_blank">TikTok</a></li>
+            <li><a href="https://www.instagram.com/metatron8788" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@Metatron878." target="_blank">YouTube</a></li>
+            <li><a href="https://twitter.com/metatron8788" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Metatron878. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
