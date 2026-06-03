@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tawanametatronnzombe-star.github.io/Metatron878/sitemap.xml
